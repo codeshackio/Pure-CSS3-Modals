@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Pure CSS3 Modals</title>
+		<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.example-label {
+			box-sizing: border-box;
+			display: inline-block;
+			padding: 10px;
+			background-color: #375d91;
+			color: #f9f9f9;
+			font-size: 12px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		.example-label:hover {
+			background-color: #3c669f;
+		}
+		</style>
+		<link href="modals.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<input type="checkbox" id="modal">
+		<label for="modal" class="example-label">Open Modal</label>
+		<label for="modal" class="modal-background"></label>
+		<div class="modal">
+			<div class="modal-header">
+				<h3>Modal Title</h3>
+				<label for="modal">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAdVBMVEUAAABNTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU0N3NIOAAAAJnRSTlMAAQIDBAUGBwgRFRYZGiEjQ3l7hYaqtLm8vsDFx87a4uvv8fP1+bbY9ZEAAAB8SURBVBhXXY5LFoJAAMOCIP4VBRXEv5j7H9HFDOizu2TRFljedgCQHeocWHVaAWStXnKyl2oVWI+kd1XLvFV1D7Ng3qrWKYMZ+MdEhk3gbhw59KvlH0eTnf2mgiRwvQ7NW6aqNmncukKhnvo/zzlQ2PR/HgsAJkncH6XwAcr0FUY5BVeFAAAAAElFTkSuQmCC" width="16" height="16" alt="">
+				</label>
+			</div>
+			<p>Content for the modal</p>
+		</div>
+	</body>
+</html>
